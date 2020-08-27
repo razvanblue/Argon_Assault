@@ -259,6 +259,17 @@ MonoBehaviour:
   healthPoints: 3
   deathFX: {fileID: 1915441622829500, guid: b9a8adbbbc358bb43b8977642a2a977a, type: 2}
   parent: {fileID: 1926585725}
+--- !u!114 &104877399
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 104877397}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8a658488b531f4a49a61e61e47253e8d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!4 &199658871 stripped
 Transform:
   m_PrefabParentObject: {fileID: 4461263753468310, guid: 23b7e9879b75a554ebebbfb79aac4ab9,
@@ -1086,6 +1097,10 @@ Prefab:
     - target: {fileID: 4589753302433984, guid: 8a5e4f33248d3ea439b0527db2a2a053, type: 2}
       propertyPath: m_RootOrder
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1596397928147054, guid: 8a5e4f33248d3ea439b0527db2a2a053, type: 2}
+      propertyPath: m_TagString
+      value: Player
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 8a5e4f33248d3ea439b0527db2a2a053, type: 2}
@@ -6261,7 +6276,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4542186410649926, guid: 53c3b379102404745b8917c08b80d9d2, type: 2}
       propertyPath: m_LocalScale.x
-      value: 10
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 4542186410649926, guid: 53c3b379102404745b8917c08b80d9d2, type: 2}
       propertyPath: m_LocalScale.z
