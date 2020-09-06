@@ -1,0 +1,23 @@
+{
+    "Lurker": {
+        "checkpoints": [
+            {
+                "steps": 435353,
+                "file_path": "results\\LurkerSAC\\Lurker\\Lurker-435353.nn",
+                "reward": null,
+                "creation_time": 1598715997.897102
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 435353,
+            "file_path": "results\\LurkerSAC\\Lurker.nn",
+            "reward": null,
+            "creation_time": 1598715997.897102
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.1.0",
+        "mlagents_version": "0.19.0",
+        "tensorflow_version": "2.3.0"
+    }
+}

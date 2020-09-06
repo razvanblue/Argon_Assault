@@ -1,0 +1,2 @@
+model_checkpoint_path: "Lurker-51196.ckpt"
+all_model_checkpoint_paths: "Lurker-51196.ckpt"

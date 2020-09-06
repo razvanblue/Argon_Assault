@@ -1,0 +1,2 @@
+model_checkpoint_path: "Stalker-26056.ckpt"
+all_model_checkpoint_paths: "Stalker-26056.ckpt"

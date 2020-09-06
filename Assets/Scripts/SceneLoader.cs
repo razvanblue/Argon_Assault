@@ -5,10 +5,12 @@ using UnityEngine.SceneManagement;
 
 public class SceneLoader : MonoBehaviour {
 
+	[SerializeField] float delay = 2f;
+
 	// Use this for initialization
 	void Start ()
 	{
-		Invoke("LoadFirstScene", 2f);
+		Invoke("LoadFirstScene", delay);
 	}
 	
 	// Update is called once per frame

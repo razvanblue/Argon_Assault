@@ -1,7 +1,6 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityStandardAssets.CrossPlatformInput;
 
 public class PlayerController : MonoBehaviour {
 
@@ -33,8 +32,8 @@ public class PlayerController : MonoBehaviour {
     {
         if (isControlEnabled)
         {
-            xThrow = CrossPlatformInputManager.GetAxis("Horizontal");
-            yThrow = CrossPlatformInputManager.GetAxis("Vertical");
+            xThrow = Input.GetAxis("Horizontal");
+            yThrow = Input.GetAxis("Vertical");
 
             ProcessTranslation();
             ProcessRotation();
@@ -71,7 +70,7 @@ public class PlayerController : MonoBehaviour {
 
     private void ProcessFiring()
     {
-        if (CrossPlatformInputManager.GetButton("Fire"))
+        if (Input.GetButton("Fire"))
         {
             SetGunsActive(true);
         }

@@ -2,8 +2,8 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Enemy : MonoBehaviour {
-
+public class Enemy : MonoBehaviour
+{
     [SerializeField] int scorePerHit = 10;
     [SerializeField] int healthPoints = 3;
     [SerializeField] GameObject deathFX;
@@ -11,7 +11,6 @@ public class Enemy : MonoBehaviour {
 
 	Scoreboard scoreboard;
 
-	// Use this for initialization
 	void Start ()
     {
         AddBoxCollider();

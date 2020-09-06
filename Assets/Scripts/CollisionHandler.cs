@@ -9,8 +9,13 @@ public class CollisionHandler : MonoBehaviour {
 	[Tooltip("In seconds")][SerializeField] float levelLoadDelay = 1f;
 	[Tooltip("FX prefab on player")][SerializeField] GameObject deathFX;
 
-	void OnTriggerEnter(Collider other)
-	{
+    private void OnCollisionEnter(Collision collision)
+    {
+		StartDeathSequence();
+	}
+	
+    private void OnParticleCollision(GameObject particle)
+    {
 		StartDeathSequence();
 	}
 
@@ -27,14 +32,4 @@ public class CollisionHandler : MonoBehaviour {
     {
 		SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
     }
-
-    // Use this for initialization
-    void Start () {
-		
-	}
-	
-	// Update is called once per frame
-	void Update () {
-		
-	}
 }

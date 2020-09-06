@@ -3,16 +3,15 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class Scoreboard : MonoBehaviour {
-
-	[SerializeField] int scorePerSecond = 1;
+public class Scoreboard : MonoBehaviour
+{
+    [SerializeField] int scorePerSecond = 1;
 
 	int score;
 	Text scoreText;
 
 	float time = 0f;
 
-	// Use this for initialization
 	void Start ()
 	{
 		scoreText = GetComponent<Text>();
